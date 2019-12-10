@@ -7,7 +7,7 @@ import java.util.Map.Entry;
 public class LearnMap {
 
 	public static void main(String[] args) {
-		Map<String, String> map = new HashMap<>();
+		Map<String, String> map = new HashMap();
 		map.put("78.0.1", "Chrome");
 		map.put("71.0.0", "Firefox");
 		map.put("78.0.2", "Chrome");

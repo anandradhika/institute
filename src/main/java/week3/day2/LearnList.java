@@ -9,7 +9,7 @@ public class LearnList {
 		// Syntax to create String array of size 5
 		// String[] name = new String[5];
 		
-		List<String> browsers = new ArrayList<>();
+		List<String> browsers = new ArrayList();
 		System.out.println(browsers.isEmpty());
 		browsers.add("IE");
 		browsers.add("Chrome");

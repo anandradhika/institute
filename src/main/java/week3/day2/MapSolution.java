@@ -10,7 +10,7 @@ public class MapSolution {
 		// Convert the string into array
 		char[] array = name.toCharArray();
 		// Create an empty map<Character,Integer>
-		Map<Character,Integer> map = new LinkedHashMap<>();
+		Map<Character,Integer> map = new LinkedHashMap();// LinkedHashMap<>() this is error
 		// Iterate over the array
 		for (char eachChar : array) {
 			//if(map.contains(Character))

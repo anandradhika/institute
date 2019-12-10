@@ -8,7 +8,7 @@ public class LearnSet {
 		// Syntax to create String array of size 5
 		// String[] name = new String[5];
 		
-		Set<String> browsers = new TreeSet<>();
+		Set<String> browsers = new TreeSet();//TreeSet<>() same to use that palce error come
 		System.out.println(browsers.isEmpty());
 		browsers.add("IE");
 		boolean add = browsers.add("Chrome");
