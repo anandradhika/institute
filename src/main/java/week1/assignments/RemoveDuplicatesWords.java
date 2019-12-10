@@ -7,7 +7,17 @@ public class RemoveDuplicatesWords {
 		String text = "We learnt java basics as part of java sessions in week1";
 		// Initialise an integer variable as count
 		int count = 0;
-			/*
+		String[] array  = text.split("");
+		
+		for (String eachword : array) {
+				count++;
+				System.out.print(eachword);
+			}
+			
+		
+		
+		/*
+			 * 
 			 * Pseudo code 
 			 * a) Split the String into array and iterate over it 
 			 * b) Initialise another loop to check whether the word is there in the array 

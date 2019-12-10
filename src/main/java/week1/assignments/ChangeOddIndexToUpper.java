@@ -6,6 +6,10 @@ public class ChangeOddIndexToUpper {
 		
 		// Here is the input
 				String test = "changeme";
+				char[] charArray = test.toCharArray();
+				for (int i = 0; i < charArray.length; i++) {
+					
+				}
 				
 		//Build a logic  to change the odd index to uppercase (output:cHaNgEmE)
 				/* Pseudo Code: 

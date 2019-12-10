@@ -6,6 +6,27 @@ public class ReverseEvenWords {
 		// Here is the input
 		String test="I am a software tester";
 		
+		String reversed="";
+
+		String[] array = test.split("");
+		//String array;
+		for (int i = 0; i < array.length; i++) {
+		
+			if(i%2==0)
+			{
+			System.out.print("enter the even word " +i);
+			}
+			else
+			{
+				System.out.println("enter the odd"+i);
+			}
+		
+				
+    
+        	
+        	 }
+	}
+		
 		//Build a logic to reverse the even position words (output: I ma a erawtfos tester)
 		
 		/* Pseudo Code:
@@ -21,4 +42,4 @@ public class ReverseEvenWords {
 
 	}
 
-}
+

@@ -14,10 +14,10 @@ public class FindSecondLargest {
 	 //System.out.println(data);
 	 for(int datalength:data)
 	 {
-		 System.out.println(datalength);
+		 System.out.print(datalength+"\n");
 
 	 }
-	System.out.println(data[data.length-2]);
+	System.out.print(data[data.length-2]);
 		/*
 		 Pseudo Code:
 		 1) Arrange the array in ascending order

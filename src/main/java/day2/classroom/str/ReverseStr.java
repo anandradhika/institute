@@ -5,6 +5,7 @@ public class ReverseStr {
 	public static void main(String[] args) {
 
 		// Here is the input
+		
 		String test = "feeling good";
 
 		char[] charArray = test.toCharArray();
@@ -12,6 +13,8 @@ public class ReverseStr {
 			System.out.print(charArray[i]);
 			
 		}
+		
+		
 		/*for (int i = 11; i <charArray.length + 1; i--) {
 
 			System.out.print(charArray[i]);

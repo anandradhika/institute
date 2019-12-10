@@ -19,11 +19,17 @@ public class SumOfDigits {
 	 */
 
 	public static void main(String[] args) {
-		int member = 0,rem,sum=0;
-		while (member>0) {
+		Scanner sc = new Scanner(System.in);
+			System.out.println("enter the numbers");
+			int member = 0,rem,sum=0;
+			member = sc.nextInt();
+		
+			while (member>0) {
 			rem = member%10;
-			sum = sum +rem;
 			member = member/10;
+			sum = sum +rem;
+		}
+			System.out.println("sumoffdigit number::"+sum);
 			
 		}
 		
@@ -53,4 +59,4 @@ public class SumOfDigits {
 		
 	}
 
-}
+
